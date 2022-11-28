@@ -51,7 +51,6 @@ setInterval(function () {
     }
     else {
         localStorage.clear();
-        //clearInterval(timerInterval);
         window.location.href = "./../profile";
     }
 }, 1000);
